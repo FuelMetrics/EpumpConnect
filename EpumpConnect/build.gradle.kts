@@ -95,9 +95,9 @@ afterEvaluate {
                 // Access the correct component for the release build variant
                 from(components["release"]) // Use 'release' build variant for publishing
 
-                groupId = "com.github.fuelmetrics" // Your groupId
-                artifactId = "efueling-connect" // Your artifactId
-                version = "0.0.1-alpha01" // Your version
+                groupId = "com.github.FuelMetrics" // Your groupId
+                artifactId = "EpumpConnect" // Your artifactId
+                version = "0.0.1-alpha03" // Your version
             }
         }
     }

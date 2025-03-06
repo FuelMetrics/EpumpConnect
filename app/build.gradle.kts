@@ -60,7 +60,8 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
 
-    implementation(project(":EpumpConnect"))
+    implementation(libs.epump.connect)
+    //implementation(project(":EpumpConnect"))
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
